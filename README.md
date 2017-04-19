@@ -4,6 +4,8 @@ Static is a dynamic JavaScript framework that brings together all that's wrong a
 
 ### Who's it for?
 
+Do you feel like...
+
 - AngularJS lets people abuse the $scope? **Wait until you see what we've got for you!**
 - React has a "licensing" problem? **We encourage you to read StricJS license**
 - Vue is maintained by few people? **Hey... It's just me here!**
