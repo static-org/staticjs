@@ -1,0 +1,27 @@
+{
+  "name": "staticjs",
+  "version": "1.0.0",
+  "description": "StaticJS is a dynamic JavaScript framework the bring together the worst about other JS frameworks",
+  "main": "static.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/static-org/staticjs.git"
+  },
+  "keywords": [
+    "js",
+    "framework",
+    "javascript"
+  ],
+  "author": "Andr�e Veiga",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/static-org/staticjs/issues"
+  },
+  "homepage": "https://github.com/static-org/staticjs#readme"
+}
