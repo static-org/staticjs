@@ -1,3 +1,7 @@
+<sup>Disclaimer: This project is an obvious satire about the state-of-the-art of the front-end development world. Too many frameworks, fragmented environments and the constant struggle to turn front-end development more back-end developer friendly.</sup>
+
+<sup>With that said, it is a nice, quick project that (despite all appearences) actually works and has fairly good performance. In fact, it's a very good fit for people with legacy projects that just need some MVC/MVVM two-way binding magic to spice up their development process. It's also a somewhat good fit for people who don't want all the bloat associated with bigger, more complete frameworks. But if that's your case, please consider the better options: [VueJS](https://vuejs.org/) and [Aurelia](http://aurelia.io/)</sup>
+
 ## StaticJS
 
 Static is a dynamic JavaScript framework that brings together all that's wrong about other frameworks!
@@ -11,7 +15,7 @@ Do you feel like...
 - Vue is maintained by few people? **Hey... It's just me here!**
 - Angular 2/4 introduced too many breaking changes? **Wait until you see the StaticJS v1.01 spec...**
 
-If you've answered yes to some of the above questions, than StaticJS **is not** for you. In that case, we encourage you to write your own JS framework and market the shit out of it until it becomes the next soon-to-be-big-thing-thats-going-to-be-forgotten-in-about-2-months-time!
+If you've answered yes to some of the above questions, than StaticJS **is not** for you. In that case, we encourage you to write your own JS framework and market it until it becomes the next soon-to-be-big-thing-thats-going-to-be-forgotten-in-about-2-months-time!
 
 ### Usage
 
