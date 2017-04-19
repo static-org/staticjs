@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+    <head>
+       <script src="static.js"></script>
+    </head>
+<body>
+    <div data-static-ctrl="test-cont">
+        <form>
+            <h1 data-static-if="showTitle">Testing title: {{title}}</h1>
+            <p>
+                <label for="name">Title: </label>
+                <input type="text" data-static-model="title">
+            </p>
+            <p>
+                <label for="name">Name: </label>
+                <input type="text" data-static-model="name">
+            </p>
+            <p>
+                <label for="name">Surname: </label>
+                <input type="text" data-static-model="surname">
+            </p>
+            <p>
+                <label for="name">Show Title: </label>
+                <input type="checkbox" data-static-model="showTitle">
+            </p>
+            <p>
+                <span>This is your name: {{name}} {{surname}}</span>
+            </p>
+            <p>
+                <button data-static-click="alertSurname">ALERT!!!</button>
+                <button data-static-click="changeSurname">Change Surname</button>
+            </p>
+            <p data-static-foreach="name in nameCollection">
+                <input data-static-model="name">
+            </p>
+        </form>
+    </div>
+
+    <script type="text/javascript">
+        staticjs.controller('test-cont', function myCtrl() {
+            var self = this;
+
+            self.name = 'Just a Name';
+            self.surname = 'Just a Surname';
+            self.title = 'Just a title';
+            //self.nameCollection = ['André', 'Carolina', 'Diogo'];
+
+            self.showTitle = true;
+
+            self.getSurname = function getSurname() {
+                return self.surname;
+            }
+
+            self.alertSurname = function getSurname() {
+                alert(self.surname);
+            }
+
+            self.changeSurname = function getSurname() {
+                self.surname = "Frias";
+            }
+        });
+    </script>
+</body>
+</html>
