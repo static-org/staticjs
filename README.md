@@ -1,37 +1,12 @@
-## Welcome to GitHub Pages
+## StaticJS
 
-You can use the [editor on GitHub](https://github.com/static-org/staticjs/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+Static is a dynamic JavaScript framework that brings together all that's wrong about other frameworks!
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+### Who's it for?
 
-### Markdown
+- AngularJS lets people abuse the $scope? **Wait until you see what we've got for you!**
+- React has a "licensing" problem? **We encourage you to read StricJS license**
+- Vue is maintained by few people? **Hey... It's just me here!**
+- Angular 2/4 introduced too many breaking changes? **Wait until you see the StaticJS v1.01 spec...**
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/static-org/staticjs/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+If you've answered yes to some of the above questions, than StaticJS **is not** for you. In that case, we encourage you to write your own JS framework and market the shit out of it until it becomes the next soon-to-be-big-thing-thats-going-to-be-forgotten-in-about-2-months-time!
