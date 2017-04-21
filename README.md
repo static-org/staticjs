@@ -47,7 +47,7 @@ StaticJS is so simple, it can be explained with just one example:
             </p>
             
             <p>
-                <span>This is your name: {{name}} {{surname}}</span>
+                <span>This is your name: \{\{name\}\} \{\{surname\}\}</span>
             </p>
             
             <p>
